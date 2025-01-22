@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import grocery from "../assets/Images/grocery.png";
+import logo from "../assets/Images/logo.jpg";
 
 function Navbar() {
   return (
@@ -9,9 +10,9 @@ function Navbar() {
         <div class="flex items-center justify-between">
           <div class="flex items-center">
           <img
-                src={grocery}
+                src={logo}
                 alt="Delivery person"
-                className="w-[50px] h-auto "
+                className="w-[50px] h-auto object-cover object-fit"
               />
           </div>
 
