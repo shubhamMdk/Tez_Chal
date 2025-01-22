@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import grocery from "../assets/Images/grocery.png";
-import logo from "../assets/Images/logo.jpg";
+import logo from "../assets/Images/logo.png";
 
 function Navbar() {
   return (
-    <nav class="bg-slate-300 py-4 px-6 shadow-sm ">
+    <nav class="bg-[#da2127] py-4 px-6 shadow-sm ">
       <div class="container mx-auto">
         <div class="flex items-center justify-between">
           <div class="flex items-center">
           <img
                 src={logo}
                 alt="Delivery person"
-                className="w-[50px] h-auto object-cover object-fit"
+                className="w-[80px] h-auto object-cover object-fit"
               />
           </div>
 
-          <div class="hidden md:flex space-x-8 ">
+          <div class="hidden md:flex text-white font-bold space-x-16 ">
             <Link to="/" class="text-black-600 hover:text-gray-900">
               Home
             </Link>

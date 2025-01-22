@@ -62,7 +62,7 @@ const Home = () => {
       {/* Added max-w-[1920px] and adjusted padding for larger screens */}
       <div className="max-w-[1920px] mx-auto px-6 2xl:px-16">
         {/* Hero Section */}
-        <div className="bg-emerald-700 rounded-2xl my-8 p-12 2xl:p-16 relative overflow-hidden min-h-[600px] 2xl:min-h-[800px]">
+        <div className="bg-[#da2127] rounded-2xl my-8 p-12 2xl:p-16 relative overflow-hidden min-h-[600px] 2xl:min-h-[800px]">
           <div className="inline-flex items-center bg-emerald-800/50 rounded-full px-3 py-1.5 mb-8">
             <span className="mr-2">🚚</span>
             <span className="text-white text-xs font-medium tracking-wide">
@@ -144,7 +144,7 @@ const Home = () => {
         </div>
 
         {/* Showcase Section */}
-        <div className="bg-emerald-800/50 rounded-2xl my-16 2xl:my-24 p-12 2xl:p-16">
+        <div className="bg-red-800/50 rounded-2xl my-16 2xl:my-24 p-12 2xl:p-16">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12 2xl:gap-16 max-w-[1600px] mx-auto">
             <div className="md:w-1/2 flex justify-center relative">
               <div className="absolute inset-0 bg-gradient-to-br from-transparent to-gray-50/50 rounded-lg" />
@@ -157,14 +157,14 @@ const Home = () => {
 
             <div className="md:w-1/2 space-y-8">
               <div>
-                <p className="text-red-700 font-bold text-xl 2xl:text-2xl tracking-wide mb-4">
+                <p className="text-red-700 font-bold text-2xl 2xl:text-2xl tracking-wide mb-4">
                   SHOWCASE
                 </p>
-                <h2 className="text-2xl 2xl:text-3xl font-bold text-gray-800 leading-tight mb-4">
+                <h2 className="text-3xl 2xl:text-3xl font-bold text-white leading-tight mb-4">
                   Best quality grocery<br />
                   just for you.
                 </h2>
-                <p className="text-gray-500 2xl:text-lg">
+                <p className="text-white text-2xl 2xl:text-lg">
                   We prioritize quality in each of our grocery,<br />
                   below are the advantages of our products.
                 </p>
@@ -177,8 +177,8 @@ const Home = () => {
                   "Userfriendly app",
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-3">
-                    <div className="w-2 h-2 2xl:w-3 2xl:h-3 rounded-full bg-red-400" />
-                    <span className="text-gray-600 2xl:text-lg">{item}</span>
+                    <div className="w-2 h-2 2xl:w-3 2xl:h-3 rounded-full bg-black" />
+                    <span className="text-white text-xl 2xl:text-lg">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -208,7 +208,7 @@ const Home = () => {
             </div>
 
             <div className="md:w-1/2 relative">
-              <div className="bg-emerald-600 rounded-lg p-4">
+              <div className="  bg-red-400 rounded-lg p-4">
                 <img 
                   src={card} 
                   alt="Service feature"

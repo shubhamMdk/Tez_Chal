@@ -7,8 +7,8 @@ function Contactus() {
   return (
     <>
     <Navbar/>
-    <div class="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-6xl mx-auto">
+    <div class=" bg-gradient-to-br from-blue-50 to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto ">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
           <div class="mb-8">

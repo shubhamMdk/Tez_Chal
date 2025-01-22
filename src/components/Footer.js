@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import logo from "../assets/Images/logo.png";
 
 function Footer() {
   return (
@@ -8,7 +10,11 @@ function Footer() {
         {/* Logo and Description Section */}
         <div className="col-span-1">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-8 h-8 bg-red-600 rounded-md"></div>
+            <div className="w-8 h-8 bg-red-600 rounded-md flex items-center"> <img
+                src={logo}
+                alt="Delivery person"
+                className="w-[80px] h-auto object-cover object-fit"
+              /></div>
             <span className="text-lg font-bold">
              Tez Chal <span className="text-green-600"></span>
             </span>
@@ -38,11 +44,18 @@ function Footer() {
         {/* Company Section */}
         <div className="col-span-1">
           <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Home</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">About Us</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Join Us</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Contact Us</a></li>
+          <ul className="space-y-2 flex flex-col">
+          <Link to="/" class="text-black-600 hover:text-gray-900">
+              Home
+            </Link>
+
+            <Link to="/Aboutus" class="text-black-600 hover:text-gray-900">
+              About Us
+            </Link>
+
+            <Link to="/contactus" class="text-black-600 hover:text-gray-900">
+              Contact us
+            </Link>
           </ul>
         </div>
 
@@ -61,11 +74,10 @@ function Footer() {
           <h3 className="font-semibold text-gray-900 mb-4">Contact Us</h3>
           <div className="space-y-2">
             <p className="text-gray-600">8600028102</p>
-            <p className="text-gray-600">8600029102</p>
             <p className="text-gray-600 text-sm">(Customer Care<br/>9:00 am TO 9:00 pm)</p>
             <p className="text-gray-600">info@dlunchbox.com</p>
             <p className="text-gray-600 text-sm">
-              Nirvana Club, At Viva Inn Building, Dr. Homi Bhabha Rd., Bavdhan Chandini, Chawk, Pune 411021
+              Nirvana Club, At Viva Inn Building, Chawk, Pune 411021
             </p>
           </div>
         </div>
