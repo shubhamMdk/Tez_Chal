@@ -8,6 +8,7 @@ function Navbar() {
     <nav class="bg-[#da2127] py-4 px-6 shadow-sm ">
       <div class="container mx-auto">
         <div class="flex items-center justify-between">
+          <Link to = "/">
           <div class="flex items-center">
           <img
                 src={logo}
@@ -15,7 +16,7 @@ function Navbar() {
                 className="w-[115px] h-auto object-cover flex "
               />
           </div>
-
+          </Link>
           <div class="hidden md:flex text-white font-bold space-x-16 ">
             <Link to="/" class="text-black-600 hover:text-gray-900">
               Home

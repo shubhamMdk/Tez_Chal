@@ -73,7 +73,7 @@ function Footer() {
         <div className="col-span-1">
           <h3 className="font-semibold text-gray-900 mb-4">Contact Us</h3>
           <div className="space-y-2">
-            <p className="text-gray-600">86000928102</p>
+            <p className="text-gray-600">860009852122</p>
             <p className="text-gray-600 text-sm">(Customer Care<br/>9:00 am TO 9:00 pm)</p>
             <p className="text-gray-600">info@Tezchal.com</p>
             <p className="text-gray-600 text-sm">
