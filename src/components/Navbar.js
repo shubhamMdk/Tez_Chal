@@ -12,7 +12,7 @@ function Navbar() {
           <img
                 src={logo}
                 alt="Delivery person"
-                className="w-[110px] h-auto object-cover flex "
+                className="w-[115px] h-auto object-cover flex "
               />
           </div>
 
