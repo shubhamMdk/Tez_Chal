@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import { FcCellPhone } from "react-icons/fc";
 import { LuMapPin } from "react-icons/lu";
@@ -81,16 +82,12 @@ function Aboutus() {
                     </a>
                   </li>
                 </ul>
+                <Link to="/contactus">
                 <div className="mt-6 space-y-3">
                   {[
-                    "In the Media",
-                    "Customer Speak",
-                    "Green Tez Chal",
-                    "Privacy Policy",
-                    "Terms & Conditions",
-                    "FAQ's",
+                   
                     "Contact Us",
-                    "Tez Chal blog"
+                    
                   ].map((item) => (
                     <a
                       key={item}
@@ -101,6 +98,7 @@ function Aboutus() {
                     </a>
                   ))}
                 </div>
+                </Link>
               </div>
             </div>
 

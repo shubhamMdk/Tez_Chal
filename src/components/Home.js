@@ -144,7 +144,7 @@ const Home = () => {
         </div>
 
         {/* Showcase Section */}
-        <div className="bg-red-800/50 rounded-2xl my-16 2xl:my-24 p-12 2xl:p-16">
+        <div className="bg-[#da2127] rounded-2xl my-16 2xl:my-24 p-12 2xl:p-16">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12 2xl:gap-16 max-w-[1600px] mx-auto">
             <div className="md:w-1/2 flex justify-center relative">
               <div className="absolute inset-0 bg-gradient-to-br from-transparent to-gray-50/50 rounded-lg" />
@@ -157,7 +157,7 @@ const Home = () => {
 
             <div className="md:w-1/2 space-y-8">
               <div>
-                <p className="text-red-700 font-bold text-2xl 2xl:text-2xl tracking-wide mb-4">
+                <p className="text-white font-bold text-2xl 2xl:text-2xl tracking-wide mb-4">
                   SHOWCASE
                 </p>
                 <h2 className="text-3xl 2xl:text-3xl font-bold text-white leading-tight mb-4">
@@ -177,7 +177,7 @@ const Home = () => {
                   "Userfriendly app",
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-3">
-                    <div className="w-2 h-2 2xl:w-3 2xl:h-3 rounded-full bg-black" />
+                    <div className="w-2 h-2 2xl:w-3 2xl:h-3 rounded-full bg-white" />
                     <span className="text-white text-xl 2xl:text-lg">{item}</span>
                   </li>
                 ))}
@@ -208,7 +208,7 @@ const Home = () => {
             </div>
 
             <div className="md:w-1/2 relative">
-              <div className="  bg-red-400 rounded-lg p-4">
+              <div className="  bg-[#da2127] rounded-lg p-4">
                 <img 
                   src={card} 
                   alt="Service feature"
