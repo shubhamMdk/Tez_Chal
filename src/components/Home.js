@@ -95,7 +95,7 @@ const Home = () => {
                 className="w-[500px] h-auto "
               />
               
-              <div className="bg-white rounded-2xl p-4 shadow-lg absolute  left-4 bottom-16 flex items-center gap-3">
+              <div className="bg-white rounded-2xl p-4 shadow-lg absolute  left-4 xsm:bottom-52 xsm:right-[-40px] xsm:left-[-30px] bottom-16 flex items-center gap-3">
                 <div className="bg-red-500 rounded-full p-2.5">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -218,7 +218,7 @@ const Home = () => {
               <img 
                 src={groww} 
                 alt="Additional feature"
-                className="rounded-lg w-full max-w-[180px] 2xl:max-w-[300px] h-auto absolute right-40 top-16"
+                className="rounded-lg w-full max-w-[180px] 2xl:max-w-[300px] h-auto absolute right-40 top-16 xsm:hidden"
               />
             </div>
           </div>
