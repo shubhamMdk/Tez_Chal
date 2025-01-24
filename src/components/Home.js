@@ -56,7 +56,7 @@ const Home = () => {
   return (
     <><Navbar />
     
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full">
       
 
       {/* Added max-w-[1920px] and adjusted padding for larger screens */}
@@ -66,7 +66,7 @@ const Home = () => {
           <div className="inline-flex items-center bg-emerald-800/50 rounded-full px-3 py-1.5 mb-8">
             <span className="mr-2">🚚</span>
             <span className="text-white text-xs font-medium tracking-wide">
-              FREE SHIPPING FEE
+              FAST SHIPPING 
             </span>
           </div>
 
@@ -88,14 +88,14 @@ const Home = () => {
               </button>
             </div>
 
-            <div className="md:w-1/2 relative ">
+            <div className="md:w-1/2 relative  xsm:bottom-20 xl:bottom-0 2xl:bottom-0 md:bottom-0 lg:bottom-0 ">
               <img
                 src={boy}
                 alt="Delivery person"
                 className="w-[500px] h-auto "
               />
               
-              <div className="bg-white rounded-2xl p-4 shadow-lg absolute  left-4 xsm:bottom-52 xsm:right-[-40px] xsm:left-[-30px] bottom-16 flex items-center gap-3">
+              {/* <div className="bg-white rounded-2xl p-4 shadow-lg absolute  left-4 lg:right-[0px] lg:left-[0px] lg:bottom-0 xsm:right-[-40px] xsm:left-[-30px] bottom-16 flex items-center gap-3">
                 <div className="bg-red-500 rounded-full p-2.5">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -104,44 +104,45 @@ const Home = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800">Fast Delivery</p>
-                  <p className="text-sm text-gray-500">Free in local any delivery</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
 
         {/* Categories Section */}
-        <div className="my-16 2xl:my-24 max-w-[1600px] mx-auto">
-          <h2 className="text-3xl 2xl:text-4xl font-bold mb-8 text-gray-800">
-            Top Categories
-          </h2>
+        <div className="my-16 2xl:my-24 max-w-[1600px] mx-auto px-4">
+      <h2 className="text-3xl 2xl:text-4xl font-bold mb-8 text-gray-800 text-center">
+        Top Categories
+      </h2>
 
-          <div className="flex justify-center">
-      <div className="flex flex-row gap-12">
-        {categories.map((category, index) => (
-          <div
-            key={index}
-            className="bg-white p-6 2xl:p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow"
-          >
-            <div className="flex flex-col items-center">
-              <div className=" rounded-full flex items-center justify-center mb-4 overflow-hidden">
-                <img 
-                  src={category.image}
-                  alt={category.title}
-                  className="w-32 h-full  object-cover"
-                />
+      <div className="overflow-x-auto xl:overflow-visible">
+        <div className="flex space-x-4 md:space-x-12 pb-4">
+          {categories.map((category, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 w-[calc(50%-0.5rem)] md:w-48 bg-white p-4 md:p-6 2xl:p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+            >
+              <div className="flex flex-col items-center">
+                <div className="w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center mb-4 overflow-hidden">
+                  <img 
+                    src={category.image}
+                    alt={category.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-gray-800 font-medium mb-1 text-center text-base md:text-lg 2xl:text-lg">
+                  {category.title}
+                </h3>
+                <p className="text-gray-400 text-sm 2xl:text-base text-center">
+                  {category.itemCount}
+                </p>
               </div>
-              <h3 className="text-gray-800 font-medium mb-1 2xl:text-lg">
-                {category.title}
-              </h3>
-              <p className="text-gray-400 text-sm 2xl:text-base">{category.itemCount}</p>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
-        </div>
 
         {/* Showcase Section */}
         <div className="bg-[#da2127] rounded-2xl my-16 2xl:my-24 p-12 2xl:p-16">
@@ -198,9 +199,9 @@ const Home = () => {
                 <div className="flex items-center bg-white rounded-lg p-4 2xl:p-6 shadow-sm">
                   <span className="text-gray-700 2xl:text-lg">We provide the fastest service</span>
                 </div>
-                <div className="flex items-center bg-white rounded-lg p-4 2xl:p-6 shadow-sm">
-                  <span className="text-gray-700 2xl:text-lg">No additional fees for orders</span>
-                </div>
+                {/* <div className="flex items-center bg-white rounded-lg p-4 2xl:p-6 shadow-sm">
+                  <span className="text-gray-700 2xl:text-lg"> additional fees for orders</span>
+                </div> */}
                 <div className="flex items-center bg-white rounded-lg p-4 2xl:p-6 shadow-sm">
                   <span className="text-gray-700 2xl:text-lg">Fast and reliable delivery</span>
                 </div>
@@ -216,10 +217,10 @@ const Home = () => {
                 />
               </div>
               <img 
-                src={groww} 
-                alt="Additional feature"
-                className="rounded-lg w-full max-w-[180px] 2xl:max-w-[300px] h-auto absolute right-40 top-16 xsm:hidden"
-              />
+  src={groww} 
+  alt="Additional feature"
+  className="hidden md:block rounded-lg w-full max-w-[180px] 2xl:max-w-[300px] h-auto absolute right-40 top-16"
+/>
             </div>
           </div>
         </div>

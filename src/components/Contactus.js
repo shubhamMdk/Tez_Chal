@@ -38,6 +38,16 @@ function Contactus() {
                 />
               </div>
             </div>
+            <div class="space-y-2">
+              <label class="text-sm font-medium text-gray-700">Email Address</label>
+              <div class="relative">
+                <input 
+                  type="tel" 
+                  placeholder="Enter your email address"
+                  class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-blue-500 transition-colors text-gray-700 bg-gray-50"
+                />
+              </div>
+            </div>
             
             <div class="space-y-2">
               <label class="text-sm font-medium text-gray-700">Message</label>
@@ -49,6 +59,7 @@ function Contactus() {
                 ></textarea>
               </div>
             </div>
+            
             
             <button 
               type="submit"

@@ -77,7 +77,7 @@ function Footer() {
             <p className="text-gray-600 text-sm">(Customer Care<br/>9:30 am TO 8:30 pm)</p>
             <p className="text-gray-600">info@Tezchal.com</p>
             <p className="text-gray-600 text-sm">
-            Sandeep Vihar, Black/Tower G-25, Floor No. 13 and 14, Kannamangala Village Bidarahalli, Bangaluru East Taluk, Kamataka-560067
+             Apartment Sandeep Vihar, Block/Tower G-25, Floor No. 13 and 14, Kannamangala Village Bidarahalli, Bengaluru East Taluk, Karnataka-560067
             </p>
           </div>
         </div>

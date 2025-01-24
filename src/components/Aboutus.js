@@ -57,14 +57,14 @@ function Aboutus() {
               {/* Sidebar */}
               <div className="lg:col-span-3">
                 <div className="bg-[#f6f6f6] p-4 rounded sticky top-4">
-                  <h2 className="text-lg mb-4">About Tez Chal</h2>
+                  <h2 className="text-lg mb-4">About TezChal</h2>
                   <ul className="space-y-3">
                     <li>
                       <a
                         href="#"
                         className="text-gray-700 hover:text-green-600"
                       >
-                        - What is Tez Chal.com
+                        - What is TezChal.com
                       </a>
                     </li>
                     <li>
@@ -72,7 +72,7 @@ function Aboutus() {
                         href="#"
                         className="text-gray-700 hover:text-green-600"
                       >
-                        - Why shop at Tez Chal?
+                        - Why shop at TezChal?
                       </a>
                     </li>
                     <li>
@@ -118,13 +118,13 @@ function Aboutus() {
                         What is Tez Chal ?
                       </h1>
                       <p className="text-gray-600">
-                        Tez Chal has been created by an veteran and alumni of
+                        TezChal has been created by a veteran and alumni of
                         IIM Calcutta with the objective of providing fresh,
                         high-quality vegetables, fruits, meat, dairy products,
                         and daily-use items that are not available through the
                         CSD canteen. Understanding the challenges faced by
                         defence personnel in accessing these essential items,
-                        Tez Chal aims to make life easier by delivering these
+                        TezChal aims to make life easier by delivering these
                         products right to their doorsteps in Armed Forces
                         cantonments across the country.
                       </p>
@@ -189,7 +189,7 @@ function Aboutus() {
                       <OrderStep
                         number={1}
                         title="Browse Products"
-                        description="Browse Tez Chal.com for products or use the search feature"
+                        description="Browse TezChal.com for products or use the search feature"
                       >
                         <div className="bg-gray-50 p-4 rounded">
                           <img
